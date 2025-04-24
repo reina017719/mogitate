@@ -1,0 +1,99 @@
+.register__content {
+    background-color: #F8F8F8;
+    padding: 0 30%;
+    padding-top: 40px;
+    min-height: 100vh;
+}
+.form__group {
+    margin-top: 20px;
+}
+
+.form__label--item {
+    color: gray;
+}
+
+.form__label--required {
+    padding: 4px 8px;
+    font-size: small;
+    border-radius: 3px;
+    background-color: red;
+    color: #FFF;
+}
+
+.form__input {
+    padding: 8px 0;
+}
+
+.validate {
+    font-size: small;
+    color: #CC3333;
+}
+
+.form__input--text {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+}
+
+.form__input--text::placeholder {
+    color: #C0C0C0;
+    padding-left: 8px;
+}
+
+.form__label--information {
+    color: red;
+    font-size: small;
+}
+
+.form__input--button {
+    padding-top: 10px;
+}
+
+.form__input--button__label {
+    padding-right: 40px;
+}
+
+.form__input--textarea {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+    resize: none;
+}
+
+.form__input--textarea::placeholder {
+    color: #C0C0C0;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.return__button {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 14%;
+}
+
+.return__button-submit {
+    padding: 10px 90px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+    text-decoration: none;
+    background-color: #C0C0C0;
+    color: black;
+}
+
+.form__button {
+    padding-left: 20px;
+}
+
+.form__button-submit {
+    padding: 10px 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #F3CA00;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
